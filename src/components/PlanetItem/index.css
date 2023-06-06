@@ -1,0 +1,21 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 400px;
+  height: 250px;
+}
+.name {
+  color: #f8fafc;
+  font-family: roboto;
+}
+.description {
+  color: #f8fafc;
+  font-family: roboto;
+  max-width: 650px;
+  flex-wrap: wrap;
+  text-align: center;
+}
